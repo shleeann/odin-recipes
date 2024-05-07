@@ -1,24 +1,94 @@
 /* neoguri-style.css */
+* {
+    margin: 0;
+}
+
+body {
+    width: 800px;
+    height: auto;
+    margin: auto;
+    background-color: antiquewhite;
+}
+
+a {
+    background-color: darkcyan;
+    width: 50px;
+    height: auto;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: block;
+    margin: 20px;
+    padding: 5px;
+}
+
+a:hover {
+    background-color: cornflowerblue;
+}
+
+.body-container {
+    width: 800px;
+    height: auto;
+    background-color: whitesmoke;
+}
+
 h1 {
-    background-color: gray;
+    background-color: peru;
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    display: block;
 }
 
-div.description {
-    background-color: black;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+img {
+    display: block;
+    margin: auto;
 }
 
-div.instructions {
-    background-color: black;
-    color: white;
+.subheader {
+    background-color: peachpuff;
+    color: indianred;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    margin: 30px 10px 10px 10px;
+    padding: 5px;
+}
+
+p {
+    margin: 15px 0px;
+    padding: 0px 10px;
+}
+
+.ingredients-container {
+    width: 500px;
+    height: auto;
+    background-color: beige;
+    color: green;
+    display: block;
+    margin: 15px;
+    padding: 10px;
+    border: 3px dotted orange;
+}
+
+ul li {
+    margin: 10px 0px;
+}
+
+ol li {
+    margin: 10px 0px;
+    padding: 0px 10px;
+}
+
+.last-para {
+    padding: 20px 10px 20px 10px;
 }
 
 p,
 h2,
+h3,
 li {
     font-family: Arial, Helvetica, sans-serif;
 }
