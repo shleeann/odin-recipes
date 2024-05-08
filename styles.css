@@ -10,7 +10,7 @@ body {
 .body-container {
     background-color: whitesmoke;
     width: 500px;
-    height: auto;
+    height: 235px;
     margin: auto;
     text-align: center;
 }
@@ -40,6 +40,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
 }
 
 a:hover {
